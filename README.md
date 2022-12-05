@@ -7,6 +7,6 @@ My solutions are written in [Typescript](https://www.typescriptlang.org/).
 
 Will possibly redo some of the solutions in [Rust](https://www.rust-lang.org/).
 
-| Year | Solutions                   | Inputs                   |
-| ---- | --------------------------- | ------------------------ |
-| 2022 | [Solutions](solutions/2022) | [Inputs](solutions/2022) |
+| Year | Solutions             | Inputs                |
+| ---- | --------------------- | --------------------- |
+| 2022 | [Solutions](src/2022) | [Inputs](inputs/2022) |
