@@ -1,0 +1,15 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Deno",
+      "type": "node",
+      "request": "launch",
+      "cwd": "${workspaceFolder}",
+      "runtimeExecutable": "deno",
+      // Must have open Typescript file selected to debug that file
+      "runtimeArgs": ["run", "--inspect-brk", "-A", "./${relativeFile}"],
+      "attachSimplePort": 9229
+    }
+  ]
+}
